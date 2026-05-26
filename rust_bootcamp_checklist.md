@@ -27,19 +27,12 @@
 
 ## ⚙️ Before You Start — Setup Checklist
 
-- [ ] Ask a parent or guardian to help with installation
-- [ ] Install Rust from **https://rustup.rs** (free, safe, official)
-- [ ] Open a terminal (Command Prompt on Windows, Terminal on Mac/Linux)
-- [ ] Type `rustc --version` and press Enter — if you see a version number, you're ready! 🎉
-- [ ] Install a code editor — **VS Code** is recommended (free at https://code.visualstudio.com)
-- [ ] Install the **rust-analyzer** extension inside VS Code (helps catch mistakes as you type)
-
-### 🪟 Windows Users Only — Linker Check
-> Rust on Windows needs an extra tool called a **linker** to build `.exe` files. Run these two checks in PowerShell to make sure it's installed:
-
-- [ ] Run `link /?` in PowerShell — you should see a help message starting with `Microsoft (R) Incremental Linker`
-- [ ] Run `where.exe link.exe` in PowerShell — you should see a path like `C:\Program Files (x86)\Microsoft Visual Studio\...\link.exe`
-- [ ] If either check fails, see the **Troubleshooting** section at the end of this document before starting Day 1
+- [x] Ask a parent or guardian to help with installation
+- [x] Install Rust from **https://rustup.rs** (free, safe, official)
+- [x] Open a terminal (Command Prompt on Windows, Terminal on Mac/Linux)
+- [x] Type `rustc --version` and press Enter — if you see a version number, you're ready! 🎉
+- [x] Install a code editor — **VS Code** is recommended (free at https://code.visualstudio.com)
+- [x] Install the **rust-analyzer** extension inside VS Code (helps catch mistakes as you type)
 
 ---
 
@@ -47,10 +40,10 @@
 **Goal:** Understand what code is and run your very first Rust program.
 
 ### 📖 Lesson
-- [ ] Read: A **program** is a list of instructions you write, and the computer follows them in order — like a recipe.
-- [ ] Read: **Rust** is a programming language known for being fast and safe. Big companies like Mozilla, Microsoft, and Discord use it.
-- [ ] Read: Every Rust program starts inside a special function called `main`. Think of it as the "front door" of your program.
-- [ ] Read: `println!` is how you make Rust print text to the screen. The `!` means it's a *macro* (a special kind of command).
+- [x] Read: A **program** is a list of instructions you write, and the computer follows them in order — like a recipe.
+- [x] Read: **Rust** is a programming language known for being fast and safe. Big companies like Mozilla, Microsoft, and Discord use it.
+- [x] Read: Every Rust program starts inside a special function called `main`. Think of it as the "front door" of your program.
+- [x] Read: `println!` is how you make Rust print text to the screen. The `!` means it's a *macro* (a special kind of command).
 
 ### 💻 Concept in Code
 ```rust
@@ -60,22 +53,22 @@ fn main() {
 ```
 
 ### ✅ Tasks
-- [ ] Create a new folder called `day1` on your computer
-- [ ] Inside it, create a file called `main.rs`
-- [ ] Type (don't copy-paste!) the code above into `main.rs`
-- [ ] In your terminal, navigate to the folder and run: `rustc main.rs`
-- [ ] Then run: `./main` (Mac/Linux) or `main.exe` (Windows)
-- [ ] See "Hello, world!" printed? **You just ran your first Rust program!** ✅
+- [x] Create a new folder called `day1` on your computer
+- [x] Inside it, create a file called `main.rs`
+- [x] Type (don't copy-paste!) the code above into `main.rs`
+- [x] In your terminal, navigate to the folder and run: `rustc main.rs`
+- [x] Then run: `./main` (Mac/Linux) or `main.exe` (Windows)
+- [x] See "Hello, world!" printed? **You just ran your first Rust program!** ✅
 
 ### 🏗️ Mini Project #1 — "About Me" Printer
-- [ ] Change the program to print 3 things about yourself (your name, your age, your favorite hobby)
-- [ ] Example output:
+- [x] Change the program to print 3 things about yourself (your name, your age, your favorite hobby)
+- [x] Example output:
   ```
   My name is Alex.
   I am 13 years old.
   I love playing video games.
   ```
-- [ ] Run it and make sure all 3 lines print correctly
+- [x] Run it and make sure all 3 lines print correctly
 
 ---
 
@@ -481,50 +474,6 @@ Congrats — you finished the 10-day Rust Bootcamp! 🦀🎉
 - [x] Created custom data types with structs and enums
 - [x] Worked with collections (Vectors)
 - [x] Built 10 projects from scratch
-
----
-
----
-
-## 🛠️ Troubleshooting
-
-### ❌ Error: `linker 'link.exe' not found` (Windows only)
-
-This is the most common error for Windows users. It means Rust can't find the tool it needs to build `.exe` files. Here's how to fix it — this is a one-time setup.
-
-**What's happening in plain English:** Rust compiles your code, but needs a separate tool called a *linker* to turn that compiled code into a runnable program. On Windows, that linker comes from Microsoft's Visual Studio Build Tools — it is *not* the same as VS Code (your editor).
-
----
-
-#### Step 1 — Download the installer
-- [ ] Go to: **https://visualstudio.microsoft.com/visual-cpp-build-tools/**
-- [ ] Click **"Download Build Tools"**
-
-#### Step 2 — Run the installer
-- [ ] Open the downloaded file (`vs_BuildTools.exe`)
-- [ ] Wait for the installer window to fully load (may take a minute)
-
-#### Step 3 — Select the right workload ⚠️ (most important step!)
-- [ ] In the installer, check the box for **"Desktop development with C++"**
-- [ ] On the right-side panel, confirm these are checked:
-  - [ ] **MSVC v143 build tools** (or the latest version shown)
-  - [ ] **Windows 11 SDK** (or Windows 10 SDK if that's what you have)
-- [ ] Click **Install** — this will download around 3–5 GB, so be patient!
-
-#### Step 4 — Restart your computer
-- [ ] Do a full restart after the install completes
-
-#### Step 5 — Validate the fix
-- [ ] Open a fresh PowerShell window
-- [ ] Run `link /?` — you should now see the `Microsoft (R) Incremental Linker` message
-- [ ] Run `where.exe link.exe` — you should see a path to the file
-- [ ] Navigate back to your `day1` folder and run `rustc main.rs` again — it should work! ✅
-
----
-
-> 💡 **Tip:** Once these build tools are installed, you never have to do this again. Every future Rust project on this computer will just work.
-
-> ⚠️ **Still stuck?** Double-check that you selected "Desktop development with C++" in Step 3 — it's easy to miss. You can re-run the installer and add the workload without reinstalling everything.
 
 ---
 
