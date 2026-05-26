@@ -76,14 +76,14 @@ fn main() {
 **Goal:** Learn how to store information in your program.
 
 ### 📖 Lesson
-- [ ] Read: A **variable** is like a labeled box — you put information in it and use the label to get it back.
-- [ ] Read: In Rust, you create a variable with the word `let`. Example: `let age = 13;`
-- [ ] Read: **Data types** describe what kind of thing is stored:
+- [x] Read: A **variable** is like a labeled box — you put information in it and use the label to get it back.
+- [x] Read: In Rust, you create a variable with the word `let`. Example: `let age = 13;`
+- [x] Read: **Data types** describe what kind of thing is stored:
   - `i32` = a whole number (integer), like `5` or `-3`
   - `f64` = a decimal number, like `3.14`
   - `bool` = true or false
   - `String` = text/words
-- [ ] Read: By default, variables in Rust **cannot be changed** after you set them. This is called being *immutable*. To allow changes, use `let mut`.
+- [x] Read: By default, variables in Rust **cannot be changed** after you set them. This is called being *immutable*. To allow changes, use `let mut`.
 
 ### 💻 Concept in Code
 ```rust
@@ -101,16 +101,16 @@ fn main() {
 ```
 
 ### ✅ Tasks
-- [ ] Create a `day2` folder and a new `main.rs`
-- [ ] Type the code above and run it
-- [ ] Change the values to match your own info
-- [ ] Add one more variable of your choice and print it
+- [x] Create a `day2` folder and a new `main.rs`
+- [x] Type the code above and run it
+- [x] Change the values to match your own info
+- [x] Add one more variable of your choice and print it
 
 ### 🏗️ Mini Project #2 — Simple Calculator (Addition)
-- [ ] Create two variables: `num1 = 20` and `num2 = 5`
-- [ ] Create a third variable: `result = num1 + num2`
-- [ ] Print: `"20 + 5 = 25"` (using your variables)
-- [ ] Try subtraction (`-`), multiplication (`*`), and division (`/`) too
+- [x] Create two variables: `num1 = 20` and `num2 = 5`
+- [x] Create a third variable: `result = num1 + num2`
+- [x] Print: `"20 + 5 = 25"` (using your variables)
+- [x] Try subtraction (`-`), multiplication (`*`), and division (`/`) too
 
 ---
 
@@ -118,10 +118,10 @@ fn main() {
 **Goal:** Learn how to write reusable blocks of code.
 
 ### 📖 Lesson
-- [ ] Read: A **function** is a named block of code you can run whenever you need it — like saving a spell in a game to cast later.
-- [ ] Read: You define a function with `fn`, give it a name, and put instructions inside `{ }`.
-- [ ] Read: Functions can take **inputs** (called *parameters*) and give back an **output** (called a *return value*).
-- [ ] Read: In Rust, the last line of a function (without a semicolon) is automatically returned.
+- [x] Read: A **function** is a named block of code you can run whenever you need it — like saving a spell in a game to cast later.
+- [x] Read: You define a function with `fn`, give it a name, and put instructions inside `{ }`.
+- [x] Read: Functions can take **inputs** (called *parameters*) and give back an **output** (called a *return value*).
+- [x] Read: In Rust, the last line of a function (without a semicolon) is automatically returned.
 
 ### 💻 Concept in Code
 ```rust
