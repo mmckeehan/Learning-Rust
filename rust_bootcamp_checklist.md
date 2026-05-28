@@ -27,12 +27,12 @@
 
 ## ⚙️ Before You Start — Setup Checklist
 
-- [x] Ask a parent or guardian to help with installation
-- [x] Install Rust from **https://rustup.rs** (free, safe, official)
-- [x] Open a terminal (Command Prompt on Windows, Terminal on Mac/Linux)
-- [x] Type `rustc --version` and press Enter — if you see a version number, you're ready! 🎉
-- [x] Install a code editor — **VS Code** is recommended (free at https://code.visualstudio.com)
-- [x] Install the **rust-analyzer** extension inside VS Code (helps catch mistakes as you type)
+- [ ] Ask a parent or guardian to help with installation
+- [ ] Install Rust from **https://rustup.rs** (free, safe, official)
+- [ ] Open a terminal (Command Prompt on Windows, Terminal on Mac/Linux)
+- [ ] Type `rustc --version` and press Enter — if you see a version number, you're ready! 🎉
+- [ ] Install a code editor — **VS Code** is recommended (free at https://code.visualstudio.com)
+- [ ] Install the **rust-analyzer** extension inside VS Code (helps catch mistakes as you type)
 
 ---
 
@@ -40,10 +40,10 @@
 **Goal:** Understand what code is and run your very first Rust program.
 
 ### 📖 Lesson
-- [x] Read: A **program** is a list of instructions you write, and the computer follows them in order — like a recipe.
-- [x] Read: **Rust** is a programming language known for being fast and safe. Big companies like Mozilla, Microsoft, and Discord use it.
-- [x] Read: Every Rust program starts inside a special function called `main`. Think of it as the "front door" of your program.
-- [x] Read: `println!` is how you make Rust print text to the screen. The `!` means it's a *macro* (a special kind of command).
+- [ ] Read: A **program** is a list of instructions you write, and the computer follows them in order — like a recipe.
+- [ ] Read: **Rust** is a programming language known for being fast and safe. Big companies like Mozilla, Microsoft, and Discord use it.
+- [ ] Read: Every Rust program starts inside a special function called `main`. Think of it as the "front door" of your program.
+- [ ] Read: `println!` is how you make Rust print text to the screen. The `!` means it's a *macro* (a special kind of command).
 
 ### 💻 Concept in Code
 ```rust
@@ -53,22 +53,22 @@ fn main() {
 ```
 
 ### ✅ Tasks
-- [x] Create a new folder called `day1` on your computer
-- [x] Inside it, create a file called `main.rs`
-- [x] Type (don't copy-paste!) the code above into `main.rs`
-- [x] In your terminal, navigate to the folder and run: `rustc main.rs`
-- [x] Then run: `./main` (Mac/Linux) or `main.exe` (Windows)
-- [x] See "Hello, world!" printed? **You just ran your first Rust program!** ✅
+- [ ] Create a new folder called `day1` on your computer
+- [ ] Inside it, create a file called `main.rs`
+- [ ] Type (don't copy-paste!) the code above into `main.rs`
+- [ ] In your terminal, navigate to the folder and run: `rustc main.rs`
+- [ ] Then run: `./main` (Mac/Linux) or `main.exe` (Windows)
+- [ ] See "Hello, world!" printed? **You just ran your first Rust program!** ✅
 
 ### 🏗️ Mini Project #1 — "About Me" Printer
-- [x] Change the program to print 3 things about yourself (your name, your age, your favorite hobby)
-- [x] Example output:
+- [ ] Change the program to print 3 things about yourself (your name, your age, your favorite hobby)
+- [ ] Example output:
   ```
   My name is Alex.
   I am 13 years old.
   I love playing video games.
   ```
-- [x] Run it and make sure all 3 lines print correctly
+- [ ] Run it and make sure all 3 lines print correctly
 
 ---
 
@@ -76,14 +76,14 @@ fn main() {
 **Goal:** Learn how to store information in your program.
 
 ### 📖 Lesson
-- [x] Read: A **variable** is like a labeled box — you put information in it and use the label to get it back.
-- [x] Read: In Rust, you create a variable with the word `let`. Example: `let age = 13;`
-- [x] Read: **Data types** describe what kind of thing is stored:
+- [ ] Read: A **variable** is like a labeled box — you put information in it and use the label to get it back.
+- [ ] Read: In Rust, you create a variable with the word `let`. Example: `let age = 13;`
+- [ ] Read: **Data types** describe what kind of thing is stored:
   - `i32` = a whole number (integer), like `5` or `-3`
   - `f64` = a decimal number, like `3.14`
   - `bool` = true or false
   - `String` = text/words
-- [x] Read: By default, variables in Rust **cannot be changed** after you set them. This is called being *immutable*. To allow changes, use `let mut`.
+- [ ] Read: By default, variables in Rust **cannot be changed** after you set them. This is called being *immutable*. To allow changes, use `let mut`.
 
 ### 💻 Concept in Code
 ```rust
@@ -101,16 +101,16 @@ fn main() {
 ```
 
 ### ✅ Tasks
-- [x] Create a `day2` folder and a new `main.rs`
-- [x] Type the code above and run it
-- [x] Change the values to match your own info
-- [x] Add one more variable of your choice and print it
+- [ ] Create a `day2` folder and a new `main.rs`
+- [ ] Type the code above and run it
+- [ ] Change the values to match your own info
+- [ ] Add one more variable of your choice and print it
 
 ### 🏗️ Mini Project #2 — Simple Calculator (Addition)
-- [x] Create two variables: `num1 = 20` and `num2 = 5`
-- [x] Create a third variable: `result = num1 + num2`
-- [x] Print: `"20 + 5 = 25"` (using your variables)
-- [x] Try subtraction (`-`), multiplication (`*`), and division (`/`) too
+- [ ] Create two variables: `num1 = 20` and `num2 = 5`
+- [ ] Create a third variable: `result = num1 + num2`
+- [ ] Print: `"20 + 5 = 25"` (using your variables)
+- [ ] Try subtraction (`-`), multiplication (`*`), and division (`/`) too
 
 ---
 
@@ -118,10 +118,10 @@ fn main() {
 **Goal:** Learn how to write reusable blocks of code.
 
 ### 📖 Lesson
-- [x] Read: A **function** is a named block of code you can run whenever you need it — like saving a spell in a game to cast later.
-- [x] Read: You define a function with `fn`, give it a name, and put instructions inside `{ }`.
-- [x] Read: Functions can take **inputs** (called *parameters*) and give back an **output** (called a *return value*).
-- [x] Read: In Rust, the last line of a function (without a semicolon) is automatically returned.
+- [ ] Read: A **function** is a named block of code you can run whenever you need it — like saving a spell in a game to cast later.
+- [ ] Read: You define a function with `fn`, give it a name, and put instructions inside `{ }`.
+- [ ] Read: Functions can take **inputs** (called *parameters*) and give back an **output** (called a *return value*).
+- [ ] Read: In Rust, the last line of a function (without a semicolon) is automatically returned.
 
 ### 💻 Concept in Code
 ```rust
@@ -467,13 +467,13 @@ Congrats — you finished the 10-day Rust Bootcamp! 🦀🎉
 - [ ] Build your own idea! Think of a small tool or game and try to make it in Rust
 
 ### Skills You've Unlocked
-- [x] Set up a real development environment
-- [x] Written and run Rust programs from scratch
-- [x] Used variables, functions, loops, and conditionals
-- [x] Learned Rust's unique ownership model
-- [x] Created custom data types with structs and enums
-- [x] Worked with collections (Vectors)
-- [x] Built 10 projects from scratch
+- [ ] Set up a real development environment
+- [ ] Written and run Rust programs from scratch
+- [ ] Used variables, functions, loops, and conditionals
+- [ ] Learned Rust's unique ownership model
+- [ ] Created custom data types with structs and enums
+- [ ] Worked with collections (Vectors)
+- [ ] Built 10 projects from scratch
 
 ---
 
