@@ -1,0 +1,11 @@
+Goal: play 3 rounds of guess the number. 
+- Computer picks a random number 1-10
+- player inputs guess
+- Computer informs if
+-- Too High
+-- Too Low
+-- Correct
+- If incorrect after 4 tries - Computer gets a point
+- If correct - player gets a point.
+
+
